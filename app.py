@@ -9,7 +9,7 @@ def welcome_message():
 @app.route("/fizzbuzz")
 def fizzbuzz():
     return render_template('fizzbuzz.html')
-
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
